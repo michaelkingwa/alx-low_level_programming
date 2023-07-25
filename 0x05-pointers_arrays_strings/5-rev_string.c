@@ -3,7 +3,7 @@
 
 /**
  * rev_string - Reverse a string
- * @s: The string to reverse
+ * @s: The string to be modified
  * Return: nothing
  */
 
