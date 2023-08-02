@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * _puts_recursion - function like puts();
- * @s: input
+ * _puts_recursion - recursive function to print to screen
+ *
+ * @s: pointer to the string
+ *
  * Return: 0
  */
 void _puts_recursion(char *s)
