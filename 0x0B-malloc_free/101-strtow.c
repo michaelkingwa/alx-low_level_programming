@@ -12,7 +12,7 @@ char **strtow(char *str);
  *
  * Return: The index marking the end of the initial word pointed to by str.
  */
-int word _len(char *str)
+int word_len(char *str)
 {
 	int index = 0, len = 0;
 
@@ -63,13 +63,13 @@ char **strtow(char *str)
 	char **strings;
 	int index = 0, words, w, letters, l;
 
-	if (str == NULL || str[0] '\0')
+	if (str == NULL || str[0] == '\0')
 		return (NULL);
-	wors = count_word(str);
+	words = count_word(str);
 	if (words == 0)
 		return (NULL);
 
-	strings = maolloc(sizeof(char *) * (words + 1));
+	strings = malloc(sizeof(char *) * (words + 1));
 	if (strings == NULL)
 		return (NULL);
 
