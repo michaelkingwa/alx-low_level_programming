@@ -1,5 +1,5 @@
 #include "main.h"
-#include  <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -8,7 +8,7 @@
  * @width: width of the grid
  * @height: height of the grid
  *
- * Return: nothing.
+ * Return: Nothing.
  */
 void print_grid(int **grid, int width, int height)
 {
