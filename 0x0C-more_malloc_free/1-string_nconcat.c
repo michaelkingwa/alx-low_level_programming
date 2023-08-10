@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - program that concatenates the string
- * @s1: character to print
- * @s2: character to print
- * @n: unsigned integer
+ * string_nconcat - .....
+ * @s1: .....
+ * @s2: .....
+ * @n: .....
  *
- * Return: nothing
+ * Return: .....
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
