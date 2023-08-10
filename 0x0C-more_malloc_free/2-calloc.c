@@ -1,9 +1,9 @@
 #include "main.h"
-#include "stdlib.h"
+#include <stdlib.h>
 
 /**
  * _calloc - ...
- * @nmemb: number of numbers
+ * @nmemb: number of members
  * @size: size
  *
  * Return: ...
