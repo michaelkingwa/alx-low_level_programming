@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * array_range - ...
- * @min: ...
- * @max: ...
+ * array_range - range of integers in array
+ * @min: minimum value of integers
+ * @max: maximum value of integers
  *
  * Return: integer value
  */
@@ -19,11 +19,13 @@ int *array_range(int min, int max)
 
 	if (a == NULL)
 		return (NULL);
+
 	while (min <= max)
 	{
-		a{i} = min;
+		a[i] = min;
 		i++;
 		min++;
 	}
+
 	return (a);
 }
