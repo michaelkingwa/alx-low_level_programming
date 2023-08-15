@@ -3,9 +3,9 @@
 
 /**
  * struct dog - a dog's basic info
- * @name: name of a dog
- * @age: age of a dog
- * @owner: owner of a dog
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: owner of dog
  */
 
 struct dog
@@ -13,7 +13,7 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-};
+}
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
