@@ -1,5 +1,8 @@
-#ifndef _VARIADIC_H_
-#define _VARIADIC_H_
+#ifndef VAR_FUNC__H
+#define VAR_FUNC_H
+
+#include <stdio.h>
+#include <stdarg.h>
 
 int putchar(char c);
 int sum_them_all(const unsigned int n, ...);
