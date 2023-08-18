@@ -2,7 +2,7 @@
 
 /**
  * int_index - searches for an integer in an array of integers.
- * array: array of integers.
+ * @array: array of integers.
  * @size: size of the elements in array
  * @cmp: pointer to func to be used to compare values.
  *
@@ -20,7 +20,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 
 	for (index = 0; index < size; index++)
 	{
-		if (cmp(array[index] != 0))
+		if (cmp(array[index]) != 0)
 			return (index);
 	}
 	return (-1)
